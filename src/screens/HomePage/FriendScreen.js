@@ -225,14 +225,14 @@ const styles = StyleSheet.create({
     width: 7,
     backgroundColor: '#63ff01',
     borderRadius: 50,
-    marginTop: 7,
+    marginBottom: -20,
   },
   friendOffline: {
     height: 7,
     width: 7,
     backgroundColor: 'grey',
     borderRadius: 50,
-    marginTop: 7,
+    marginBottom: -20,
   },
   friendStatus: {
     fontSize: 12,

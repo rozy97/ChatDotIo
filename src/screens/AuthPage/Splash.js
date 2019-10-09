@@ -15,7 +15,7 @@ class SplashScreen extends Component {
     return new Promise(resolve =>
       setTimeout(() => {
         resolve('result');
-      }, 2500),
+      }, 3000),
     );
   };
 
@@ -72,9 +72,10 @@ const styles = StyleSheet.create({
     color: 'white',
     fontSize: 60,
     fontFamily: 'sans-serif-condensed',
-    letterSpacing: 5,
+    letterSpacing: 8,
     fontStyle: 'italic',
     marginTop: -50,
+    fontWeight: 'bold',
   },
 });
 

@@ -52,8 +52,6 @@ class LoginScreen extends Component {
       })
       .catch(error => {
         this.setState({isLoading: false});
-        console.log(error);
-        // this.setState({ errorMessage: JSON.stringify(error) })
         if (error.code == 'auth/invalid-email') {
           this.setState({invalidEmailError: true});
         } else if (error.code == 'auth/user-not-found') {
@@ -134,7 +132,6 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    // backgroundColor: '#207561',
     backgroundColor: 'black',
   },
   bodyWrapper: {
