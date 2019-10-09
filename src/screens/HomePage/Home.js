@@ -183,7 +183,7 @@ class HomeScreen extends Component {
         <View
           style={{
             height: 52,
-            backgroundColor: '#353839',
+            backgroundColor: '#232b2b',
             justifyContent: 'center',
           }}>
           <Text
@@ -198,7 +198,7 @@ class HomeScreen extends Component {
         </View>
         {this.state.users.length > 0 ? (
           this.state.lastmsg != null ? (
-            <ScrollView>
+            <ScrollView style={{marginTop: 15}}>
               <FlatList
                 key={this.state.receiverList.length}
                 data={this.state.users}
