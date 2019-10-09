@@ -15,7 +15,7 @@ class SplashScreen extends Component {
     return new Promise(resolve =>
       setTimeout(() => {
         resolve('result');
-      }, 2000),
+      }, 2500),
     );
   };
 
@@ -32,7 +32,7 @@ class SplashScreen extends Component {
       <View style={styles.container}>
         <StatusBar backgroundColor="#000000" barStyle="light-content" />
         <ImageBackground
-          source={require('../../assets/background-img2.jpg')}
+          source={require('../../assets/background-img1.jpg')}
           style={styles.imageBackground}>
           <View style={styles.logoContainer}>
             <Image

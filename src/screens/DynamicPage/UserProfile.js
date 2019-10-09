@@ -43,7 +43,7 @@ class UserProfileScreen extends Component {
           <View style={styles.header}>
             <ImageBackground
               source={{uri: user.header}}
-              style={{height: 530, width: '100%'}}>
+              style={{height: '100%', width: '100%'}}>
               <Image style={styles.avatar} source={{uri: user.photo}}></Image>
               <Text style={styles.profileLabel}>{user.fullname}</Text>
             </ImageBackground>
@@ -121,7 +121,7 @@ const styles = StyleSheet.create({
   },
   header: {
     // backgroundColor: "#353839",
-    height: 530,
+    height: 250,
   },
   avatar: {
     width: 100,
@@ -129,7 +129,7 @@ const styles = StyleSheet.create({
     borderRadius: 63,
     alignSelf: 'center',
     position: 'absolute',
-    marginTop: 358,
+    marginTop: 78,
   },
   body: {
     // marginTop:40,

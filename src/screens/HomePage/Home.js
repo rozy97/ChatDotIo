@@ -198,7 +198,7 @@ class HomeScreen extends Component {
         </View>
         {this.state.users.length > 0 ? (
           this.state.lastmsg != null ? (
-            <ScrollView style={{marginTop: 15}}>
+            <ScrollView style={{marginTop: 10}}>
               <FlatList
                 key={this.state.receiverList.length}
                 data={this.state.users}
