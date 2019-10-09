@@ -96,7 +96,7 @@ class FriendScreen extends Component {
         <View
           style={{
             height: 52,
-            backgroundColor: '#353839',
+            backgroundColor: '#232b2b',
             justifyContent: 'center',
           }}>
           <Text
@@ -111,14 +111,14 @@ class FriendScreen extends Component {
         </View>
         <ScrollView>
           <TouchableOpacity
-            style={styles.friendListContainer}
+            style={styles.userContainer}
             onPress={() =>
               this.props.navigation.navigate('UserProfile', {item: currentUser})
             }
             activeOpacity={0.5}>
             <Image source={{uri: currentUser.photo}} style={styles.userImage} />
             <View style={{paddingLeft: 10, paddingTop: 10}}>
-              <Text style={styles.friendName}>{currentUser.fullname}</Text>
+              <Text style={styles.userName}>{currentUser.fullname}</Text>
               <View style={{flexDirection: 'row', alignItems: 'center'}}>
                 <Text style={{color: '#ffffff40', fontSize: 11}}>
                   {currentUser.statusmessage}
@@ -126,6 +126,7 @@ class FriendScreen extends Component {
               </View>
             </View>
           </TouchableOpacity>
+
           <TouchableOpacity
             activeOpacity={1}
             onPress={() => {
@@ -189,8 +190,14 @@ const styles = StyleSheet.create({
     backgroundColor: '#E5E6EE20',
     height: 31,
   },
+  userContainer: {
+    marginTop: 20,
+    paddingBottom: 15,
+    paddingLeft: 10,
+    flexDirection: 'row',
+  },
   friendListContainer: {
-    // padding: 10,
+    // marginTop: 10,
     paddingBottom: 15,
     paddingLeft: 10,
     flexDirection: 'row',
@@ -204,6 +211,10 @@ const styles = StyleSheet.create({
     height: 50,
     width: 50,
     borderRadius: 50,
+  },
+  userName: {
+    fontSize: 18,
+    color: '#ecfcff',
   },
   friendName: {
     fontSize: 18,
