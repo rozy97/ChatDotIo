@@ -77,13 +77,6 @@ class HomeScreen extends Component {
               lastmsg: lastmsgList,
             });
           }
-
-          // let newMessages = firebase.database().ref('indicators/').child(this.state.uid).child(friendList)
-          // let indicator = 0
-          // newMessages.child('newMessage').on("value", (value)=> {
-          //     indicator = value.val()
-          // })
-          // newMessages.update({newMessage: indicator + 1})
         });
       });
     });
@@ -128,8 +121,8 @@ class HomeScreen extends Component {
       const granted = await PermissionsAndroid.request(
         PermissionsAndroid.PERMISSIONS.ACCESS_FINE_LOCATION,
         {
-          title: 'Ma-Chat Location Permission',
-          message: 'Ma-Chat needs permission to get your location',
+          title: 'chat.io Location Permission',
+          message: 'chat.io needs permission to get your location',
           buttonNeutral: 'Ask Me Later',
           buttonPositive: 'OK',
           buttonNegative: 'Cancel',
@@ -157,7 +150,6 @@ class HomeScreen extends Component {
             style={{padding: 10, flexDirection: 'row'}}
             onPress={() => {
               this.props.navigation.navigate('Chat', {item: item});
-              // firebase.database().ref('messages/').child(this.state.uid).child(uidReceiver).update({newMessage: 0})
             }}>
             <Image
               source={{uri: item.photo}}

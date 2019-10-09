@@ -223,14 +223,16 @@ const styles = StyleSheet.create({
   friendOnline: {
     height: 7,
     width: 7,
-    backgroundColor: '#207561',
+    backgroundColor: '#63ff01',
     borderRadius: 50,
+    marginTop: 7,
   },
   friendOffline: {
     height: 7,
     width: 7,
     backgroundColor: 'grey',
     borderRadius: 50,
+    marginTop: 7,
   },
   friendStatus: {
     fontSize: 12,
