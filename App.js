@@ -1,6 +1,6 @@
-import React, { Component } from 'react'
-import AppNavigation from './src/routes/AppNavigator'
-import { Root } from 'native-base'
+import React, {Component} from 'react';
+import AppNavigation from './src/routes/AppNavigator';
+import {Root} from 'native-base';
 
 export default class App extends Component {
   render() {
@@ -8,6 +8,6 @@ export default class App extends Component {
       <Root>
         <AppNavigation />
       </Root>
-    )
+    );
   }
 }
