@@ -33,6 +33,7 @@
 		C94DF3B2D1914EEB80FA13CF /* Roboto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B620AF94AD2549C8A8B6E7A6 /* Roboto.ttf */; };
 		672A47757C9847C68F74AADD /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E00DCC46D0234985B1525EB1 /* SimpleLineIcons.ttf */; };
 		6D6B93F6777041C0A29719E9 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1DC22EE4FFBE4295B9991446 /* Zocial.ttf */; };
+		EED033DB71F74962839923EE /* vincHand.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2685CFD3D73C4249B8EEBC8B /* vincHand.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,6 +87,7 @@
 		B620AF94AD2549C8A8B6E7A6 /* Roboto.ttf */ = {isa = PBXFileReference; name = "Roboto.ttf"; path = "../node_modules/native-base/Fonts/Roboto.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		E00DCC46D0234985B1525EB1 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; name = "SimpleLineIcons.ttf"; path = "../node_modules/native-base/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		1DC22EE4FFBE4295B9991446 /* Zocial.ttf */ = {isa = PBXFileReference; name = "Zocial.ttf"; path = "../node_modules/native-base/Fonts/Zocial.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2685CFD3D73C4249B8EEBC8B /* vincHand.ttf */ = {isa = PBXFileReference; name = "vincHand.ttf"; path = "../assets/fonts/vincHand.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -214,6 +216,7 @@
 				B620AF94AD2549C8A8B6E7A6 /* Roboto.ttf */,
 				E00DCC46D0234985B1525EB1 /* SimpleLineIcons.ttf */,
 				1DC22EE4FFBE4295B9991446 /* Zocial.ttf */,
+				2685CFD3D73C4249B8EEBC8B /* vincHand.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -373,6 +376,7 @@
 				C94DF3B2D1914EEB80FA13CF /* Roboto.ttf in Resources */,
 				672A47757C9847C68F74AADD /* SimpleLineIcons.ttf in Resources */,
 				6D6B93F6777041C0A29719E9 /* Zocial.ttf in Resources */,
+				EED033DB71F74962839923EE /* vincHand.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

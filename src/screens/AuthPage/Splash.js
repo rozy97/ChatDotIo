@@ -5,7 +5,6 @@ import {
   Text,
   Image,
   Dimensions,
-  PixelRatio,
   ImageBackground,
   StyleSheet,
   StatusBar,
@@ -16,7 +15,7 @@ class SplashScreen extends Component {
     return new Promise(resolve =>
       setTimeout(() => {
         resolve('result');
-      }, 20000),
+      }, 2000),
     );
   };
 
@@ -30,24 +29,10 @@ class SplashScreen extends Component {
 
   render() {
     return (
-      // <View style={styles.viewStyles}>
-      //   <ImageBackground
-      //     source={require('../../assets/background-img2.jpg')}
-      //     style={{width: '100%', height: '100%'}}>
-      //     <Image
-      //       source={require('../../assets/logo.png')}
-      //       style={{width: 150, height: 150, marginBottom: 10}}
-      //     />
-      //     <Text style={{color: '#d0d0d0', fontSize: 25, fontWeight: 'bold'}}>
-      //       chat.io
-      //     </Text>
-      //   </ImageBackground>
-      // </View>
-
       <View style={styles.container}>
         <StatusBar backgroundColor="#000000" barStyle="light-content" />
         <ImageBackground
-          source={require('../assets/background-splash.png')}
+          source={require('../../assets/background-img2.jpg')}
           style={styles.imageBackground}>
           <View style={styles.logoContainer}>
             <Image
@@ -61,20 +46,6 @@ class SplashScreen extends Component {
     );
   }
 }
-
-// const styles = {
-//   viewStyles: {
-//     flex: 1,
-//     alignItems: 'center',
-//     justifyContent: 'center',
-//     backgroundColor: '#207561',
-//   },
-//   textStyles: {
-//     color: 'white',
-//     fontSize: 40,
-//     fontWeight: 'bold',
-//   },
-// };
 
 const styles = StyleSheet.create({
   container: {
@@ -98,12 +69,12 @@ const styles = StyleSheet.create({
     height: 300,
   },
   title: {
-    color: 'black',
-    opacity: 0.6,
-    fontSize: 40,
+    color: 'white',
+    fontSize: 60,
     fontFamily: 'sans-serif-condensed',
     letterSpacing: 5,
     fontStyle: 'italic',
+    marginTop: -50,
   },
 });
 

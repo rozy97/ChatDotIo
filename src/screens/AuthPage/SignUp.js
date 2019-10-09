@@ -17,9 +17,10 @@ class SignUpScreen extends Component {
     this.state = {
       SignUpForm: {
         photo:
-          'https://www.goombastomp.com/wp-content/uploads/2016/02/Yellow-Pokemon-Wallpaper.jpg',
+          'https://res.cloudinary.com/dbhwvh1mf/image/upload/v1566321024/img/blank-profile-picture-973460_960_720_wolhdp.png',
         header:
-          'https://i.pinimg.com/564x/b7/e1/8c/b7e18c4d7e8b6b6a90b3603fd6c14bec.jpg',
+          'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTuyOoq8GpHXZlXW-XkExGVNJC6ydVZ08QDp3Wu2kKza54ZHK5h',
+        statusmessage: "Hey, I'm using chat.io!",
       },
       errorMessage: null,
       emailInUseError: false,
@@ -104,39 +105,41 @@ class SignUpScreen extends Component {
       <View behavior="padding" style={styles.Wrapper}>
         <View style={styles.bodyWrapper}>
           <View>
-            <Text style={styles.SignInTitle}>Create your{'\n'}MaChat now!</Text>
+            <Text style={styles.SignInTitle}>
+              Create your{'\n'}chat.io account!
+            </Text>
           </View>
           <View>
             <TextInput
               placeholder="Full Name"
-              underlineColorAndroid="#207561"
+              underlineColorAndroid="#3e64ff"
               placeholderTextColor="#e3dac9"
               style={styles.inputField}
               onChangeText={text => this.handleChange('fullname', text)}
             />
             <TextInput
               placeholder="Username"
-              underlineColorAndroid="#207561"
+              underlineColorAndroid="#3e64ff"
               placeholderTextColor="#e3dac9"
               style={styles.inputField}
               onChangeText={text => this.handleChange('username', text)}
             />
             <TextInput
               placeholder="Email"
-              underlineColorAndroid="#207561"
+              underlineColorAndroid="#3e64ff"
               placeholderTextColor="#e3dac9"
               keyboardType="email-address"
               style={styles.inputField}
               onChangeText={text => this.handleChange('email', text)}
             />
             {this.state.emailInputError ? (
-              <Text>Please input right email</Text>
+              <Text style={{color: 'white'}}>Please input right email</Text>
             ) : (
-              <Text></Text>
+              <Text style={{marginTop: -7, marginBottom: -8}}></Text>
             )}
             <TextInput
               placeholder="Password"
-              underlineColorAndroid="#207561"
+              underlineColorAndroid="#3e64ff"
               placeholderTextColor="#e3dac9"
               secureTextEntry={true}
               style={styles.inputField}
@@ -160,7 +163,7 @@ class SignUpScreen extends Component {
               {this.state.isLoading ? (
                 <ActivityIndicator color="white" />
               ) : (
-                <Text style={{color: 'white'}}>Sign Up</Text>
+                <Text style={{color: 'white', fontSize: 18}}>Sign Up</Text>
               )}
             </Button>
           </View>
@@ -174,7 +177,7 @@ class SignUpScreen extends Component {
         </View>
         <View style={styles.footerWrapper}>
           <View style={{flexDirection: 'row'}}>
-            <Text style={{color: 'black'}}>Already have an account? </Text>
+            <Text style={{color: 'white'}}>Already have an account? </Text>
             <TouchableOpacity
               onPress={() => this.props.navigation.navigate('Login')}
               activeOpacity={0.85}>
@@ -192,7 +195,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#e6a400',
+    backgroundColor: 'black',
   },
   bodyWrapper: {
     flex: 6,
@@ -208,12 +211,12 @@ const styles = StyleSheet.create({
     fontSize: 35,
     textAlign: 'center',
     fontWeight: 'bold',
-    color: '#207561',
+    color: 'white',
     paddingBottom: 50,
   },
   inputField: {
     width: 280,
-    color: 'gray',
+    color: 'white',
     borderColor: 'gray',
     marginTop: 5,
   },
@@ -225,12 +228,12 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     marginBottom: 20,
-    width: 250,
+    width: 275,
     borderRadius: 5,
-    backgroundColor: '#207561',
+    backgroundColor: '#3e64ff',
   },
   text: {
-    color: '#e3dac9',
+    color: '#3e64ff',
     fontSize: 13,
   },
 });
