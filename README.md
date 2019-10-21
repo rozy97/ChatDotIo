@@ -32,15 +32,16 @@ Chat dot io App means to communicate quickly and realtime with your friend. You 
 5. Type `react-native run-android` for run this app. ***Make sure your device is connected with debugging mode***.
 
 ## Screenshots
-<div align="center">
-       <img width="250" src="https://user-images.githubusercontent.com/47060060/65812577-270d5b00-e1f3-11e9-9bb0-0a61b8414d4e.gif">
-       <img width="250" src="https://user-images.githubusercontent.com/47060060/65812546-b6663e80-e1f2-11e9-950b-ddfaa37ca529.gif">
-</div>
-  <br/>
-<div align="center">
-       <img width="250" src="https://user-images.githubusercontent.com/47060060/65450510-76583200-de67-11e9-940d-06719107c88b.gif">
-       <img width="250" src="https://user-images.githubusercontent.com/47060060/65812586-4906dd80-e1f3-11e9-9897-a7f65546815e.gif">
-</div>
+<p align="center">
+    <span>
+      <img src="https://raw.githubusercontent.com/rozy97/pic/master/Screenshot_20191021-125748.jpg" width="250px" />
+      &nbsp;&nbsp;
+      <img src="https://raw.githubusercontent.com/rozy97/pic/master/Screenshot_20191021-125756.jpg" width="250px" />
+      &nbsp;&nbsp;
+      <img src="https://raw.githubusercontent.com/rozy97/pic/master/Screenshot_20191021-125809.jpg" width="250px" />
+    </span>
+    
+  </p>
 
 ## Release APK
 <a href="https://drive.google.com/open?id=1EIB3iXkxIYJBSp6yZmAfEpOIGB-9dPmz">
