@@ -55,6 +55,6 @@ Chat dot io App means to communicate quickly and realtime with your friend. You 
 
 ## Release APK
 <a href="https://drive.google.com/open?id=1EIB3iXkxIYJBSp6yZmAfEpOIGB-9dPmz">
-  <img src="https://img.shields.io/badge/download%20on-drive-blue"/>
+  <img src="https://img.shields.io/badge/Download-drive-blue"/>
 </a>
 
