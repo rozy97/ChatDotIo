@@ -42,6 +42,16 @@ Chat dot io App means to communicate quickly and realtime with your friend. You 
     </span>
     
   </p>
+  <p align="center">
+    <span>
+      <img src="https://raw.githubusercontent.com/rozy97/pic/master/Screenshot_20191021-125851.jpg" width="250px" />
+      &nbsp;&nbsp;
+      <img src="https://raw.githubusercontent.com/rozy97/pic/master/Screenshot_20191021-125904.jpg" width="250px" />
+      &nbsp;&nbsp;
+      <img src="https://raw.githubusercontent.com/rozy97/pic/master/Screenshot_20191021-125921.jpg" width="250px" />
+    </span>
+    
+  </p>
 
 ## Release APK
 <a href="https://drive.google.com/open?id=1EIB3iXkxIYJBSp6yZmAfEpOIGB-9dPmz">
